@@ -8,7 +8,8 @@ Take pictures and passes them through [MS Cognitive API](https://www.microsoft.c
 * pic_functions.R
 
 ### main
-There's a csv file which contains the Brand Names, their FB page links, and the page ID [this is the key data, you can find it by viewing the source of the FB page and searching for *pageID*]. It goes to the brand pages and fetches the last *n* posts and its posts and likes data.
+There's a csv file which contains the Brand Names, their FB page links, and the page ID [this is the key data, you can find it by viewing the source of the FB page and searching for *pageID*]. You can manually add the brands your interested in here.
+It then goes to the brand pages and fetches the last *n* posts and its posts and likes data. 
 
 ### dataProc
 It takes the data from above and gives you an *n* sample from each brand
